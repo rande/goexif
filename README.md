@@ -11,13 +11,7 @@ Like goexif? - Bitcoin tips welcome: 17M7LFh3ETz4bz83VikB7xuGQskt8K5Lj4
 To install, in a terminal type:
 
 ```
-go get github.com/rwcarlsen/goexif/exif
-```
-
-Or if you just want the tiff package:
-
-```
-go get github.com/rwcarlsen/goexif/tiff
+go get github.com/rwcarlsen/goexif
 ```
 
 Example usage:
