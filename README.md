@@ -1,3 +1,5 @@
+*Note:* This is a fork ...  
+
 goexif
 ======
 
@@ -11,7 +13,7 @@ Like goexif? - Bitcoin tips welcome: 17M7LFh3ETz4bz83VikB7xuGQskt8K5Lj4
 To install, in a terminal type:
 
 ```
-go get github.com/rwcarlsen/goexif
+go get github.com/rande/goexif
 ```
 
 Example usage:
@@ -24,8 +26,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/rwcarlsen/goexif/exif"
-	"github.com/rwcarlsen/goexif/mknote"
+	"github.com/rande/goexif/exif"
+	"github.com/rande/goexif/mknote"
 )
 
 func ExampleDecode() {

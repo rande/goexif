@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rwcarlsen/goexif/exif"
-	"github.com/rwcarlsen/goexif/tiff"
+	"github.com/rande/goexif/exif"
+	"github.com/rande/goexif/tiff"
 )
 
 func main() {
