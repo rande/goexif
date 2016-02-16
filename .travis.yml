@@ -8,11 +8,7 @@ go:
   - 1.5
   - 1.6
 
-install:
-  - go list -f '{{range .Imports}}{{.}} {{end}}' ./... | xargs go get -v
-  - go list -f '{{range .TestImports}}{{.}} {{end}}' ./... | xargs go get -v
+install: make install
 
-script:
-  - go test ./...
-  - go vet ./...
+script: make test
 
